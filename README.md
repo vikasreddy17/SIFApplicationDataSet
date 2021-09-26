@@ -1,4 +1,4 @@
-# SIFApplicationDataSet
+# SIFApplicationDatasetAnalysis
 
 Project Goal: Create machine learning model, decision tree classifier, to process variables from the given data set and predict whether a certain day was a holiday or not. Data_Analysis.ipynb is the main file in the GitHub repository that has all of the code for the project.
 
