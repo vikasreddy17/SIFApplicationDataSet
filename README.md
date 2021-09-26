@@ -1,6 +1,6 @@
 # SIFApplicationDataSet
 
-Project Goal: UCreated machine learning model, decision tree classifier, to process variables from the given data set and predict whether a certain day was a holiday or not.
+Project Goal: Create machine learning model, decision tree classifier, to process variables from the given data set and predict whether a certain day was a holiday or not.
 
 1. Correlation Heatmap and Bar Chart
 
