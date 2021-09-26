@@ -1,0 +1,2 @@
+max_leaf_nodes,max_depth,train_score,test_score
+12,11,0.9297825687282698,0.9297121475782271
