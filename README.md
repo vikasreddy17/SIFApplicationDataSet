@@ -1,6 +1,6 @@
 # SIFApplicationDataSet
 
-Project Goal: Using given variables to predict whether a certain day was a holiday or not.
+Project Goal: UCreated machine learning model, decision tree classifier, to process variables from the given data set and predict whether a certain day was a holiday or not.
 
 1. Correlation Heatmap and Bar Chart
 
@@ -16,7 +16,7 @@ The individual variables had low correlations with each other, so I decided to d
 
 2. Splitting training and testing data from the train.csv file. 
 
-80% of the data was placed into the training set (output_train_x.csv and output_train_y.csv) and the remaining 20% of the data was placed into a testing set (output_test_x.csv and output_test_y.csv). The training and testing sets were created using the train_test_split function in the sklearn Python library. The code corressponding to this functionality is the third block of code in the Data_Analysis.ipynb file.
+80% of the data was placed into the training set (output_train_x.csv and output_train_y.csv) and the remaining 20% of the data was placed into a testing set (output_test_x.csv and output_test_y.csv). The training and testing sets were created using the train_test_split function in the sklearn Python library. The code corresponding to this functionality is the third block of code in the Data_Analysis.ipynb file.
 
 3. Preforming a cross validation (using the training data) on the decision tree classifier model from the sklearn library and testing hyperparameters (max leaf nodes and max depth of the decision tree).
 
@@ -24,7 +24,7 @@ Shown in the fourth block of code in the Data_Analysis.ipynb file, a nested for 
 
 4. Selecting a final model and testing the accuracy of the model with the testing set.
 
-The best combination of hyperparameters of the ones tested was a max depth of 4 and a max leaf nodes of 4. The test accuracy of final model selected was approximately 92.9608%. Using the relationship that four variables share (store number, department number, weekly sales, and if a particular day was a holiday), the model surpassed the perdictive capabilities of a bivariate analysis first explored through the correlation heatmap and bar charts. Additionally, the relationship between the four explored variables was demonstrated by the accuracy of the predictive model. Using the final algorithm created, new input data can be used to predict whether a particular day was a holiday with high accuracy. The power of using more complex models with many variables is demonstrated through this machine learning model.
+The best combination of hyperparameters of the ones tested was a max depth of 4 and a max leaf nodes of 4. The test accuracy of final model selected was approximately 92.9608%. Using the relationship that four variables share (store number, department number, weekly sales, and if a particular day was a holiday), the model surpassed the predictive capabilities of a bivariate analysis first explored through the correlation heatmap and bar charts. Additionally, the relationship between the four explored variables was demonstrated by the accuracy of the predictive model. Using the final algorithm created, new input data can be used to predict whether a particular day was a holiday with high accuracy. The power of using more complex models with many variables is demonstrated through this machine learning model.
 
 
 
