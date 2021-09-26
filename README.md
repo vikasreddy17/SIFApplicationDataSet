@@ -18,9 +18,13 @@ The individual variables had low correlations with each other, so I decided to d
 
 80% of the data was placed into the training set (output_train_x.csv and output_train_y.csv) and the remaining 20% of the data was placed into a testing set (output_test_x.csv and output_test_y.csv). The training and testing sets were created using the train_test_split function in the sklearn Python library. The code corressponding to this functionality is the third block of code in the Data_Analysis.ipynb file.
 
-3. Preforming a cross validation on the decision tree classifier model from the sklearn library and testing hyperparameters (max leaf nodes and max depth of the decision tree).
+3. Preforming a cross validation (using the training data) on the decision tree classifier model from the sklearn library and testing hyperparameters (max leaf nodes and max depth of the decision tree).
 
-Shown in the 
+Shown in the fourth block of code in the Data_Analysis.ipynb file, a nested for loop was used to run cross validations on decision tree classifier models with max depth varying from 4 to 15 and max leaf nodes varying from 4 to 15. The code creates a final list of the accuracy train and test score and organizes the models based on the test score from the cross validation. The full results of all the models tested in the cross validation is available in the DecisionTree_full_crossval_results.csv file. A condensed data table is also available under the fourth block of code in the Data_Analysis.ipynb file.
+
+4. Selecting a final model and testing the accuracy of the model with the testing set.
+
+The best combination of hyperparameters of the ones tested was a max depth of 4 and a max leaf nodes of 4. The test accuracy of final model selected was approximately 92.9608%. We 
 
 
 
