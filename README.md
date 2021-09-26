@@ -24,7 +24,7 @@ Shown in the fourth block of code in the Data_Analysis.ipynb file, a nested for 
 
 4. Selecting a final model and testing the accuracy of the model with the testing set.
 
-The best combination of hyperparameters of the ones tested was a max depth of 4 and a max leaf nodes of 4. The test accuracy of final model selected was approximately 92.9608%. We 
+The best combination of hyperparameters of the ones tested was a max depth of 4 and a max leaf nodes of 4. The test accuracy of final model selected was approximately 92.9608%. Using the relationship that four variables share (store number, department number, weekly sales, and, if a particular day was a holiday), the model surpassed the perdictive capabilities of a bivariate analysis first explored through the correlation heatmap and bar charts. Additionally, the relationship between the four explored variables was demonstrated by the accuracy of the predictive model. Using the final algorithm created, new input data can be used to predict whether a particular day was a holiday with high accuracy. The power of using more complex models with many variables is demonstrated through this machine learning model.
 
 
 
